@@ -1,0 +1,1 @@
+Your file <% = Request.QueryString("f1") %> is uploaded!

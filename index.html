@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>My App</title>
+  </head>
+   <body>
+<div class="header">
+<h4>
+Violetta Maj
+<br />
+Melanie Murrill
+<br />
+Calvon Bowden
+<h5>
+NC A&T State University
+<br />
+Greensboro, NC
+</h5>
+<h1>PROJECT 'PREDICTING BANKRUPTCY'</h1>
+</div>
+<ul class="nav">
+  <li><a href="login.html#">Log in</a></li>
+  <li><a href="contact.html#">Contact</a></li>
+  <li><a class="active" href="home.html#">Home</a></li>
+</ul>
+<br />
+<br />
+<br />
+<br />
+<br />
+<div class="gallery">
+    <img src="regression.jpg" alt="regression" width="250" height="200">
+  <div class="desc">
+  <a href="linear.html#">LINEAR REGRESSION METHOD</a></div>
+</div>
+
+<div class="gallery">
+    <img src="neural.jpg" alt="neural" width="250" height="200">
+  <div class="desc">
+  <a href="neural.html#">NEURAL NETWORK METHOD</a></div>
+</div>
+
+<div class="gallery">
+    <img src="python.jpg" alt="python" width="250" height="200">
+  <div class="desc">
+  <a href="python.html#">PYTHON ANALYSIS</a></div>
+</div>
+
+<div class="gallery">
+    <img src="ratio.jpg" alt="ratio" width="250" height="200">
+  <div class="desc">
+  <a href="ratio.html#">RATIO ANALYSIS</a></div>
+</div>
+<br />
+<div class="box">
+<p>Upload your document here <br />
+for prediction bancruptcy</p>
+<form id="name-form" action="process.php" method="Post" enctype="multipart/form-data">
+<input type="file" name="f1" accept=".xls, .xlsx, .doc, .docx" />
+<table width="25%" border="0"></table>
+<br />
+<input name="submit" type="submit" value="Upload" />
+</form>
+<br />
+<br />
+<form action="" method="get">
+<p>Select Analysis Method</p>
+<select name="method">
+<option value="linear_regression">Linear Regression</option>
+<option value="neural_network">Neural Network</option>
+<option value="python">Python</option>
+<option value="ratio">Ratio</option>
+</select>
+</form>
+</div>
+<footer>
+<h4>&copy Greensboro | 2020</h4>
+</footer>
+</body>
+</html>
