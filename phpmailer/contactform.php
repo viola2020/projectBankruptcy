@@ -1,4 +1,5 @@
 <?php 
+$msg = "";
 if (isset($_POST['submit'])) {
 	require 'phpmailer/PHPMailerAutoload.php';
 	
