@@ -1,7 +1,7 @@
 <?php 
 $msg = "";
-use  PHPMailer;
-include_once "PHPMailer\PHPMailer.php";
+use  PHPMailer\PHPMailer\PHPMailer;
+include_once "PHPMailer/PHPMailer.php";
 
 if (isset($_POST['submit'])) {
         $subject = $_POST['subject'];
