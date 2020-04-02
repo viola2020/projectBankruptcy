@@ -1,6 +1,6 @@
 <?php 
 $msg = "";
-if (isset($_POST['upload'])) {
+if (isset($_GET['upload'])) {
 	require 'phpmailer/PHPMailerAutoload.php';
 	
 	function sendemail($to, $upload) {
