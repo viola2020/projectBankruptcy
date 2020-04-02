@@ -62,6 +62,8 @@ and anytime during a weekend</em>
         <textarea id="message" name="message" placeholder="Write something.." style="height:80px"></textarea>
         <input type="submit" value="Submit">
       </form>
+      
+      <?php echo_$msg; ?>
     </div>
   </div>
 
