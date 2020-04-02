@@ -66,6 +66,7 @@ for prediction bancruptcy</p>
 </form>
 <br />
 <br />
+<?php echo_$msg; ?>
 <form action="" method="get">
 <p>Select Analysis Method</p>
 <select name="method">
