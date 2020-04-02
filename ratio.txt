@@ -66,6 +66,9 @@ R21	ASSETS/DEBTS
 R22	WCFO/SALES
 R23	WCFO/ASSETS
 R24	WCFO/DEBTS
+<br>
+<br>
 
+ <img src="ratio1.jpg" alt="ratio" width="150" height="100">
 </body>
 </html>
