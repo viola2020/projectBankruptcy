@@ -1,29 +1,25 @@
 <?php 
 $msg = "";
+use  PHPMailer;
+include_once "PHPMailer\PHPMailer.php";
+
 if (isset($_POST['submit'])) {
-	require 'phpmailer/PHPMailerAutoload.php';
-	
-	function sendemail($to, $from, $fromName, $message) {
-		$mail = new PHPMailer();
-		$mail->setFrom($from, $fromName);
-		$mail->addAddress($to);
-		$mail->addMessage($message);
-		$mail->Subject = 'Contact Form - Email';
-		$mail->Message = $message;
-		$mail->1stHTML(isHtml:false);
-		
-		return $mail->send();
-		
-	}
-	
-	$name = $_POST['name'];
-	$email = $_POST['email'];
+        $subject = $_POST['subject'];
+	$email =  $_POST['email'];
 	$message = $_POST['message'];
 	
-	if(sendemail(to:'violettamaj53@gmail.com', $email, $name, $message));
-	    $msg = 'Email Sent!';
+	$mail = new PHPMailer();
+	$mail->addAddress(address: 'violettamaj53@gmail.com');
+	$mail->setFrom($email);
+	$mail->Subject = $subject;
+	$mail->isHTML(isHtml:true);
+	$mail->body = $message;
+	
+	if (email->send())
+		$msg = "Your Message has been sent!";
 	else
-		$msg = 'Email Failed!';
-}
+		$msg = "Please try again!";
+		
+	}
 
 ?>
