@@ -2,7 +2,8 @@
 $msg = "";
 use  PHPMailer\PHPMailer\PHPMailer;
 include_once "PHPMailer/PHPMailer.php";
-
+include_once "PHPMailer/Exception.php";
+	
 if (isset($_POST['submit'])) {
         $subject = $_POST['subject'];
 	$email =  $_POST['email'];
