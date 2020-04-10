@@ -53,7 +53,7 @@ and anytime during a weekend</em>
     </div>
     <div class="row">
     <div class="column">
-     <?php if ($msg != "") echo "$msg<br>"; ?>
+ 
       <form method="POST" action="contactform.php" enctype="multipart/form-data">
         <label for="name">Name</label>
         <input type="text" id=name" name="name" placeholder="Your name..">
