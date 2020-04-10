@@ -24,3 +24,4 @@ if (isset($_POST['submit'])) {
 	}
 
 ?>
+    <?php if ($msg != "") echo "$msg<br>"; ?>
