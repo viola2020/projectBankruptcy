@@ -4,6 +4,12 @@
 <meta charset="UTF-8">
 <title>Your Feedback</title>
 </head>
+ <style>
+  p {
+   align:center;
+   text-color:red;
+  }
+ </style>
 <body>
  <?php
  $name = $_POST['name'];
