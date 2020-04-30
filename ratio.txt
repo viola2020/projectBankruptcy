@@ -28,14 +28,13 @@ Greensboro, NC
 </ul>
 <div class="box">
 <form name="form1" action="download.php" method="post">
-<p> Download this predicting analysis example using the button below.
-<table width="25%" border="0"></table>
-</form>
-<input name="Submit" type="submit" value="Download" />
+<p> Download this predicting analysis example using links below.</p>
+  <a href="/xampp/htdocs/downloads/RatioAnalysis.docx" download>Ratio Analysis 1<br />
+  <a href="/xampp/htdocs/downloads/Ratio.xlsx" download>Ratio Analysis 2<br />
+  <a href="/xampp/htdocs/downloads/Bankruptcy.csv" download>Bankruptcy Original File<br />
+</a>
 </div>
-<?php
-echo '
-<a href="http://localhost/download.php?download_file=RatioAnalysis.docx">PHP download file</a>
+<br /> <br />
 <div>
 Ratio Analysis 
 
@@ -86,7 +85,7 @@ Firms identified as healthy are reflected below.
 
 **** We would normally add a Debt to Equity ratio if the information was given, but it is not. Otherwise these two ratios are some of the most relevant in predicting bankruptcy. 
 </div>
-<div>
+<br />
 Source:	
 "Predicting Corporate Bankruptcy"	
 Darden Business Publishing	
