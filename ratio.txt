@@ -29,9 +29,9 @@ Greensboro, NC
 <div class="box">
 <form name="form1" action="download.php" method="post">
 <p> Download this predicting analysis example using links below.</p>
-  <a href="/xampp/htdocs/downloads/RatioAnalysis.docx" download>Ratio Analysis 1<br />
-  <a href="/xampp/htdocs/downloads/Ratio.xlsx" download>Ratio Analysis 2<br />
-  <a href="/xampp/htdocs/downloads/Bankruptcy.csv" download>Bankruptcy Original File<br />
+  <a href="/downloads/RatioAnalysis.docx" download>Ratio Analysis 1<br />
+  <a href="/downloads/Ratio.xlsx" download>Ratio Analysis 2<br />
+  <a href="/downloads/Bankruptcy.csv" download>Bankruptcy Original File<br />
 </a>
 </div>
 <br /> <br />
