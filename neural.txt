@@ -29,8 +29,8 @@ Greensboro, NC
 <div class="box">
 <form name="form1" action="add.php" method="post">
 <p> Download this predicting analysis example using links below.</p>
-  <a href="/xampp/htdocs/downloads/Neural Network Analysis.docx" download>Neural Network Analysis<br />
-  <a href="/xampp/htdocs/downloads/Bankruptcy.csv" download>Bankruptcy Original File<br />
+  <a href="/downloads/Neural Network Analysis.docx" download>Neural Network Analysis<br />
+  <a href="/downloads/Bankruptcy.csv" download>Bankruptcy Original File<br />
 </a>
 </div>
 <p>Predicting BankruptcyData Preparation:<br /> 
