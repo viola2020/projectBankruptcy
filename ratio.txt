@@ -17,7 +17,7 @@ NC A&T State University
 <br />
 Greensboro, NC
 </h5>
-<h1>Z_SCORE ANALYSIS</h1>
+<h1>Z-SCORE ANALYSIS</h1>
 </div>
 <ul class="nav">
   <li><a href="login.html#">Log in</a></li>
